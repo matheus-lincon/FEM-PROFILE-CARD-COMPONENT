@@ -1,0 +1,52 @@
+:root {
+    /* colors */
+    --primary: hsl(185, 75%, 39%);
+    --text: hsl(227, 10%, 46%);
+    --heading: hsl(229, 23%, 23%);
+    --bg: hsl(225, 10%, 92%);
+
+    /* fonts */
+    --ff: "Kumbh Sans", sans-serif;
+
+    --fs-xm: 0.75rem;
+    --fs-sm: 0.875rem;
+    --fs-m: 1.125rem;
+
+    --fw-bold: 700;
+    --fw-regular: 400;
+
+    /* spacing */
+    --spacing-xl: 2.5rem;
+    --spacing-xm: 1.75rem;
+    --spacing-m: 1.25rem;
+    --spacing-sm: 1rem;
+}
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Kumbh Sans";
+    src: url("../assets/fonts/KumbhSans-VariableFont_YOPQ,wght.ttf");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400 700;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100dvh;
+    background-color: var(--primary);
+}
