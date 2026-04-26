@@ -1,41 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- displays site properly based on user's device -->
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+        <title>Frontend Mentor | Profile card component</title>
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/profile.css">
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- displays site properly based on user's device -->
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-    <title>Frontend Mentor | Profile card component</title>
-    <link rel="stylesheet" href="./css/main.css">
-</head>
+    <body>
+        <main class="main">
+            <div class="profile-card">
+                <div class="header__img">
+                    <img src="./images/bg-pattern-card.svg" alt="">
+                </div>
 
-<body>
-    <main class="main">
-        <div class="profile-card">
-            <div class="profile-card__img">
-                <img src="./images/image-victor.jpg" alt="User's profile picture">
-            </div>
-            <h1 class="profile-card__user">
-                Victor Crest
-                <span class="user__age">26</span>
-            </h1>
-            <p class="profile-card__country">London</p>
-            <div class="profile-card__info">
-                <p class="info__followers">
-                    <strong>80K</strong>
-                    <span>Followers</span>
-                </p>
-                <p class="info__followers">
-                    <strong>803K</strong>
-                    <span>Likes</span>
-                </p>
-                <p class="info__followers">
-                    <strong>1.4K</strong>
-                    <span>Photos</span>
-                </p>
-            </div>
-    </main>
-</body>
+                <div class="profile-card__content">
+                    <div class="profile-card__img">
+                        <img clas="user__img" src="./images/image-victor.jpg" alt="User's profile picture">
+                    </div>
+                    <h1 class="profile-card__user">
+                        Victor Crest
+                        <span class="user__age">26</span>
+                    </h1>
+                    <p class="profile-card__country">London</p>
+                    <div class="profile-card__info">
+                        <p class="info">
+                            <strong>80K</strong>
+                            <span>Followers</span>
+                        </p>
+                        <p class="info">
+                            <strong>803K</strong>
+                            <span>Likes</span>
+                        </p>
+                        <p class="info">
+                            <strong>1.4K</strong>
+                            <span>Photos</span>
+                        </p>
+                    </div>
+
+                </div>
+        </main>
+    </body>
 
 </html>
