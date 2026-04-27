@@ -4,13 +4,14 @@
     --text: hsl(227, 10%, 46%);
     --heading: hsl(229, 23%, 23%);
     --bg: hsl(225, 10%, 92%);
+    --shadow-hsl: 229, 23%, 23%;
 
     /* fonts */
     --ff: "Kumbh Sans", sans-serif;
 
-    --fs-xm: 0.75rem;
-    --fs-sm: 0.875rem;
-    --fs-m: 1.125rem;
+    --fs-xm: clamp(0.75rem, 0.6429rem + 0.5357vw, 1.125rem);
+    --fs-sm: clamp(0.875rem, 0.7321rem + 0.7143vw, 1.375rem);
+    --fs-m: clamp(1.125rem, 1.0179rem + 0.5357vw, 1.5rem);
 
     --fw-bold: 700;
     --fw-regular: 400;
