@@ -1,13 +1,13 @@
-.main {
-    padding: var(--spacing-m);
+main {
+  padding: var(--spacing-m);
 }
 
 .profile-card {
   width: 100%;
   max-width: 400px;
-    background-color: var(--bg);
-    border-radius:1rem; 
-    box-shadow: 0px 20px 14px 8px hsla(var(--shadow-hsl), 0.3);
+  background-color: var(--bg);
+  border-radius:1rem; 
+  box-shadow: 0px 20px 14px 8px hsla(var(--shadow-hsl), 0.3);
 }
 
 .header__img img {
